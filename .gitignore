@@ -1,3 +1,10 @@
+# Aplication Folders #
+application/config/database.php
+application/config/config.php
+.vscode
+files/*
+!files/*_sample.*
+
 .DS_Store
 
 application/cache/*
@@ -15,7 +22,7 @@ user_guide_src/build/*
 user_guide_src/cilexer/build/*
 user_guide_src/cilexer/dist/*
 user_guide_src/cilexer/pycilexer.egg-info/*
-/vendor/
+# /vendor/
 
 # IDE Files
 #-------------------------
