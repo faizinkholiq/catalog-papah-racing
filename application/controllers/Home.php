@@ -12,7 +12,7 @@ class Home extends CI_Controller {
 	{
 		$d['title'] = "Dashboard";
         $d['highlight_menu'] = "dashboard";
-        $d['content_view'] = ($d['role'] == 1)? 'dashboard/admin' : 'dashboard/member';
-        $this->load->view('layout/template', $d);
+        $d['content_view'] = "public/index";
+        $this->load->view('public/layout', $d);
 	}
 }
