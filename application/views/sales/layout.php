@@ -31,6 +31,8 @@
 	<link rel="stylesheet" href="<?=base_url('assets/css/sales/magnific-popup.css') ?>">
 	<link rel="stylesheet" href="<?=base_url('assets/css/sales/main.css') ?>">
 
+	<script src="<?=base_url('assets/js/sales/vendor/jquery-2.2.4.min.js') ?>"></script>
+
 	<style>
 		.organic-breadcrumb{
 			margin-bottom: 100px;
@@ -89,7 +91,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	</footer>
 	<!-- End footer Area -->
 
-	<script src="<?=base_url('assets/js/sales/vendor/jquery-2.2.4.min.js') ?>"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
 	 crossorigin="anonymous"></script>
 	<script src="<?=base_url('assets/js/sales/vendor/bootstrap.min.js') ?>"></script>
