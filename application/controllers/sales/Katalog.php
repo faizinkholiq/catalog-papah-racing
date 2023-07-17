@@ -10,8 +10,8 @@ class Katalog extends CI_Controller {
 	
 	public function index()
 	{
-		$d['title'] = "Dashboard";
-        $d['highlight_menu'] = "dashboard";
+		$d['title'] = "Katalog";
+        $d['highlight_menu'] = "katalog";
         $d['content_view'] = "katalog/index";
         $this->load->view('sales/layout', $d);
 	}

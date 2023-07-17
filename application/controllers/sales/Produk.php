@@ -10,9 +10,9 @@ class Produk extends CI_Controller {
 	
 	public function index()
 	{
-		$d['title'] = "Dashboard";
-        $d['highlight_menu'] = "dashboard";
-        $d['content_view'] = "sales/index";
+		$d['title'] = "Produk";
+        $d['highlight_menu'] = "produk";
+        $d['content_view'] = "produk/index";
         $this->load->view('sales/layout', $d);
 	}
 }

@@ -10,9 +10,9 @@ class Processing extends CI_Controller {
 	
 	public function index()
 	{
-		$d['title'] = "Dashboard";
-        $d['highlight_menu'] = "dashboard";
-        $d['content_view'] = "sales/index";
+		$d['title'] = "Processing";
+        $d['highlight_menu'] = "processing";
+        $d['content_view'] = "processing/index";
         $this->load->view('sales/layout', $d);
 	}
 }
