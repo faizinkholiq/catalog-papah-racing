@@ -5,7 +5,7 @@
 	<!-- Mobile Specific Meta -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<!-- Favicon-->
-	<link rel="shortcut icon" href="<?=base_url('assets/img/public/fav.png') ?>">
+	<link rel="shortcut icon" href="<?=base_url('assets/img/sales/fav.png') ?>">
 	<!-- Author Meta -->
 	<meta name="author" content="CodePixar">
 	<!-- Meta Description -->
@@ -15,21 +15,21 @@
 	<!-- meta character set -->
 	<meta charset="UTF-8">
 	<!-- Site Title -->
-	<title>PapahRacing.com</title>
+	<title>MAJU JAYA AUTOPART | Sales</title>
 	<!--
 		CSS
 		============================================= -->
-	<link rel="stylesheet" href="<?=base_url('assets/css/public/linearicons.css') ?>">
-	<link rel="stylesheet" href="<?=base_url('assets/css/public/font-awesome.min.css') ?>">
-	<link rel="stylesheet" href="<?=base_url('assets/css/public/themify-icons.css') ?>">
-	<link rel="stylesheet" href="<?=base_url('assets/css/public/bootstrap.css') ?>">
-	<link rel="stylesheet" href="<?=base_url('assets/css/public/owl.carousel.css') ?>">
-	<link rel="stylesheet" href="<?=base_url('assets/css/public/nice-select.css') ?>">
-	<link rel="stylesheet" href="<?=base_url('assets/css/public/nouislider.min.css') ?>">
-	<link rel="stylesheet" href="<?=base_url('assets/css/public/ion.rangeSlider.css') ?>" />
-	<link rel="stylesheet" href="<?=base_url('assets/css/public/ion.rangeSlider.skinFlat.css') ?>" />
-	<link rel="stylesheet" href="<?=base_url('assets/css/public/magnific-popup.css') ?>">
-	<link rel="stylesheet" href="<?=base_url('assets/css/public/main.css') ?>">
+	<link rel="stylesheet" href="<?=base_url('assets/css/sales/linearicons.css') ?>">
+	<link rel="stylesheet" href="<?=base_url('assets/css/sales/font-awesome.min.css') ?>">
+	<link rel="stylesheet" href="<?=base_url('assets/css/sales/themify-icons.css') ?>">
+	<link rel="stylesheet" href="<?=base_url('assets/css/sales/bootstrap.css') ?>">
+	<link rel="stylesheet" href="<?=base_url('assets/css/sales/owl.carousel.css') ?>">
+	<link rel="stylesheet" href="<?=base_url('assets/css/sales/nice-select.css') ?>">
+	<link rel="stylesheet" href="<?=base_url('assets/css/sales/nouislider.min.css') ?>">
+	<link rel="stylesheet" href="<?=base_url('assets/css/sales/ion.rangeSlider.css') ?>" />
+	<link rel="stylesheet" href="<?=base_url('assets/css/sales/ion.rangeSlider.skinFlat.css') ?>" />
+	<link rel="stylesheet" href="<?=base_url('assets/css/sales/magnific-popup.css') ?>">
+	<link rel="stylesheet" href="<?=base_url('assets/css/sales/main.css') ?>">
 </head>
 
 <body>
@@ -40,7 +40,7 @@
 			<nav class="navbar navbar-expand-lg navbar-light main_box">
 				<div class="container">
 					<!-- Brand and toggle get grouped for better mobile display -->
-					<a class="navbar-brand logo_h" href="index.html"><img src="<?=base_url('assets/img/public/logo.png') ?>" alt=""></a>
+					<a class="navbar-brand logo_h" href="index.html"><img src="<?=base_url('assets/img/sales/logo.png') ?>" alt=""></a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
 					 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 						<span class="icon-bar"></span>
@@ -103,7 +103,7 @@
 	</header>
 	<!-- End Header Area -->
 
-    <?php $this->load->view($content_view); ?>
+    <?php $this->load->view('sales/'.$content_view); ?>
 
 	<!-- start footer Area -->
 	<footer class="footer-area section_gap">
@@ -151,14 +151,14 @@
 					<div class="single-footer-widget mail-chimp">
 						<h6 class="mb-20">Instragram Feed</h6>
 						<ul class="instafeed d-flex flex-wrap">
-							<li><img src="<?=base_url('assets/img/public/i1.jpg') ?>" alt=""></li>
-							<li><img src="<?=base_url('assets/img/public/i2.jpg') ?>" alt=""></li>
-							<li><img src="<?=base_url('assets/img/public/i3.jpg') ?>" alt=""></li>
-							<li><img src="<?=base_url('assets/img/public/i4.jpg') ?>" alt=""></li>
-							<li><img src="<?=base_url('assets/img/public/i5.jpg') ?>" alt=""></li>
-							<li><img src="<?=base_url('assets/img/public/i6.jpg') ?>" alt=""></li>
-							<li><img src="<?=base_url('assets/img/public/i7.jpg') ?>" alt=""></li>
-							<li><img src="<?=base_url('assets/img/public/i8.jpg') ?>" alt=""></li>
+							<li><img src="<?=base_url('assets/img/sales/i1.jpg') ?>" alt=""></li>
+							<li><img src="<?=base_url('assets/img/sales/i2.jpg') ?>" alt=""></li>
+							<li><img src="<?=base_url('assets/img/sales/i3.jpg') ?>" alt=""></li>
+							<li><img src="<?=base_url('assets/img/sales/i4.jpg') ?>" alt=""></li>
+							<li><img src="<?=base_url('assets/img/sales/i5.jpg') ?>" alt=""></li>
+							<li><img src="<?=base_url('assets/img/sales/i6.jpg') ?>" alt=""></li>
+							<li><img src="<?=base_url('assets/img/sales/i7.jpg') ?>" alt=""></li>
+							<li><img src="<?=base_url('assets/img/sales/i8.jpg') ?>" alt=""></li>
 						</ul>
 					</div>
 				</div>
@@ -185,21 +185,21 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	</footer>
 	<!-- End footer Area -->
 
-	<script src="<?=base_url('assets/js/public/vendor/jquery-2.2.4.min.js') ?>"></script>
+	<script src="<?=base_url('assets/js/sales/vendor/jquery-2.2.4.min.js') ?>"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
 	 crossorigin="anonymous"></script>
-	<script src="<?=base_url('assets/js/public/vendor/bootstrap.min.js') ?>"></script>
-	<script src="<?=base_url('assets/js/public/jquery.ajaxchimp.min.js') ?>"></script>
-	<script src="<?=base_url('assets/js/public/jquery.nice-select.min.js') ?>"></script>
-	<script src="<?=base_url('assets/js/public/jquery.sticky.js') ?>"></script>
-	<script src="<?=base_url('assets/js/public/nouislider.min.js') ?>"></script>
-	<script src="<?=base_url('assets/js/public/countdown.js') ?>"></script>
-	<script src="<?=base_url('assets/js/public/jquery.magnific-popup.min.js') ?>"></script>
-	<script src="<?=base_url('assets/js/public/owl.carousel.min.js') ?>"></script>
+	<script src="<?=base_url('assets/js/sales/vendor/bootstrap.min.js') ?>"></script>
+	<script src="<?=base_url('assets/js/sales/jquery.ajaxchimp.min.js') ?>"></script>
+	<script src="<?=base_url('assets/js/sales/jquery.nice-select.min.js') ?>"></script>
+	<script src="<?=base_url('assets/js/sales/jquery.sticky.js') ?>"></script>
+	<script src="<?=base_url('assets/js/sales/nouislider.min.js') ?>"></script>
+	<script src="<?=base_url('assets/js/sales/countdown.js') ?>"></script>
+	<script src="<?=base_url('assets/js/sales/jquery.magnific-popup.min.js') ?>"></script>
+	<script src="<?=base_url('assets/js/sales/owl.carousel.min.js') ?>"></script>
 	<!--gmaps Js-->
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
-	<script src="<?=base_url('assets/js/public/gmaps.min.js') ?>"></script>
-	<script src="<?=base_url('assets/js/public/main.js') ?>"></script>
+	<script src="<?=base_url('assets/js/sales/gmaps.min.js') ?>"></script>
+	<script src="<?=base_url('assets/js/sales/main.js') ?>"></script>
 </body>
 
 </html>

@@ -1,9 +1,9 @@
 @font-face {
 	font-family: 'themify';
-	src: url('../../fonts/public/themify.eot?-fvbane');
-	src: url('../../fonts/public/themify.eot?#iefix-fvbane') format('embedded-opentype'),
-		url('../../fonts/public/themify.woff?-fvbane') format('woff'), url('../../fonts/public/themify.ttf?-fvbane') format('truetype'),
-		url('../../fonts/public/themify.svg?-fvbane#themify') format('svg');
+	src: url('../../fonts/sales/themify.eot?-fvbane');
+	src: url('../../fonts/sales/themify.eot?#iefix-fvbane') format('embedded-opentype'),
+		url('../../fonts/sales/themify.woff?-fvbane') format('woff'), url('../../fonts/sales/themify.ttf?-fvbane') format('truetype'),
+		url('../../fonts/sales/themify.svg?-fvbane#themify') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }

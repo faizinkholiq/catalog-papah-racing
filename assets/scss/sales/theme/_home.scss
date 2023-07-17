@@ -302,7 +302,7 @@
 	background: #f9f9ff;
 	.exclusive-left {
 		position: realtive;
-		background: url(../../img/public/exclusive.jpg) center no-repeat;
+		background: url(../../img/sales/exclusive.jpg) center no-repeat;
 		background-size: cover;
 		text-align: center;
 		padding: 275px 0;
@@ -725,14 +725,14 @@
 				background-size: cover;
 				margin-left: 10px;
 				&:nth-child(1) {
-					background: url(../../img/public/ob1.jpg);
+					background: url(../../img/sales/ob1.jpg);
 					margin-left: 0;
 				}
 				&:nth-child(2) {
-					background: url(../../img/public/ob2.jpg);
+					background: url(../../img/sales/ob2.jpg);
 				}
 				&:nth-child(3) {
-					background: url(../../img/public/ob3.jpg);
+					background: url(../../img/sales/ob3.jpg);
 				}
 				&.active {
 					box-shadow: 2.828px 2.828px 15px 0px rgba(0, 0, 0, 0.1);
@@ -759,14 +759,14 @@
 			.owl-dots {
 				.owl-dot {
 					&:nth-child(1) {
-						background: url(../../img/public/organic-food/ob1.jpg);
+						background: url(../../img/sales/organic-food/ob1.jpg);
 						margin-left: 0;
 					}
 					&:nth-child(2) {
-						background: url(../../img/public/organic-food/ob2.jpg);
+						background: url(../../img/sales/organic-food/ob2.jpg);
 					}
 					&:nth-child(3) {
-						background: url(../../img/public/organic-food/ob3.jpg);
+						background: url(../../img/sales/organic-food/ob3.jpg);
 					}
 					&.active {
 						&:after {
